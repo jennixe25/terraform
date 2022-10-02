@@ -6,7 +6,7 @@ pipeline {
         steps{
         sh 'echo Hello'
         }
-    stage('package'){
+      stage('package'){
         steps{
         sh 'echo Hello'
         }
@@ -21,4 +21,4 @@ pipeline {
            }      
             }
         }
-      }
+      
